@@ -1,0 +1,50 @@
+.new-entry-form {
+    padding: 20px;
+
+
+    &-card {
+        .card-header {
+            text-align: center;
+            font-weight: bolder;
+            background-color: #B6B09F;
+        }
+
+        margin: 20px;
+        background-color: #F2F2F2;
+    }
+
+    form {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+        .entry-form-submit {
+            background-color: #B6B09F;
+            border-color: black;
+        }
+    }
+
+}
+
+.patient-details {
+    &-card {
+
+
+        width: 50%;
+
+        .card {
+            &-header {
+                background-color: #E2E0C8;
+            }
+
+            &-body {
+                background-color: #5C7285;
+            }
+
+        }
+
+        .submit-btn {
+            background-color: #A7B49E !important;
+            color: black;
+        }
+    }
+}

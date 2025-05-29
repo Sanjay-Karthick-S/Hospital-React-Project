@@ -1,0 +1,32 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & .head-title {
+        font-weight: bold;
+        text-align: center;
+        
+        h2 {
+            font-size: 50px !important;
+            font-weight: 900;
+            color: #ff0000;
+        }
+
+    }
+
+    &-nav {
+        .dropdown{
+            .home-menu{
+                background-color: lightgray;
+            }
+        }
+        .nav-link {
+            Button {
+                font-weight: bold;
+                width: 190px;
+            }
+        }
+    }
+}
+
